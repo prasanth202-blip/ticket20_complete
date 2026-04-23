@@ -1,0 +1,1 @@
+export { CompanyLogin as default } from './PlatformLogin';
