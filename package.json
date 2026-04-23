@@ -1,0 +1,18 @@
+{
+  "name": "ticketflow",
+  "version": "1.0.0",
+  "description": "Multi-Tenant Ticket Management System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "node backend/config/seed.js",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "dependencies": {
+    "axios": "^1.15.1",
+    "form-data": "^4.0.5"
+  }
+}
